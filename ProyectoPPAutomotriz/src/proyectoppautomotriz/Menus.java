@@ -8,9 +8,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "------------------------------"
+              "-------------------------------------------------------"
             + "\n" + titulo
-            + "\n------------------------------"
+            + "\n-------------------------------------------------------"
             + "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2);
@@ -28,9 +28,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "------------------------------"
+              "-------------------------------------------------------"
             + "\n" + titulo
-            + "\n------------------------------"
+            + "\n-------------------------------------------------------"
             + "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
@@ -50,9 +50,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "------------------------------"
+              "-------------------------------------------------------"
             + "\n" + titulo
-            + "\n------------------------------"
+            + "\n-------------------------------------------------------"
             + "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
@@ -74,9 +74,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "------------------------------"
+              "-------------------------------------------------------"
             + "\n" + titulo
-            + "\n------------------------------"
+            + "\n-------------------------------------------------------"
             + "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
@@ -100,9 +100,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "------------------------------"
+              "-------------------------------------------------------"
             + "\n" + titulo
-            + "\n------------------------------"
+            + "\n-------------------------------------------------------"
             + "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
@@ -128,9 +128,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "------------------------------"
+              "-------------------------------------------------------"
             + "\n" + titulo
-            + "\n------------------------------"
+            + "\n-------------------------------------------------------"
             + "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
