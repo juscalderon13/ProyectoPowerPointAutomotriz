@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
  que solicita y nos retorna la decision que tomo el usuario en forma de String*/
 public class Menus {
   // Menu de 2 opciones  
-  public static String menu2opciones(String titulo, String opcion1, String opcion2){
+  public String menu2opciones(String titulo, String opcion1, String opcion2){
       boolean salida = false;
       String inputEleccion = "";
       do{
@@ -26,7 +26,7 @@ public class Menus {
       return inputEleccion;
     } 
     //Menu de 3 opciones
-  public static String menu3opciones(String titulo, String opcion1, String opcion2, String opcion3){
+  public String menu3opciones(String titulo, String opcion1, String opcion2, String opcion3){
       boolean salida = false;
       String inputEleccion = "";
       do{
@@ -48,7 +48,7 @@ public class Menus {
       return inputEleccion;
     }
   //Menu de 4 opciones
-  public static String menu4opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4){
+  public String menu4opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4){
       boolean salida = false;
       String inputEleccion = "";
       do{
@@ -72,7 +72,7 @@ public class Menus {
       return inputEleccion;
     }
   //Menu de 5 opciones
-  public static String menu5opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4, String opcion5){
+  public String menu5opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4, String opcion5){
       boolean salida = false;
       String inputEleccion = "";
       do{
@@ -98,7 +98,7 @@ public class Menus {
       return inputEleccion;
   }
   //Menu de 6 opciones
-  public static String menu6opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4, String opcion5, String opcion6){
+  public String menu6opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4, String opcion5, String opcion6){
       boolean salida = false;
       String inputEleccion = "";
       do{
@@ -126,7 +126,7 @@ public class Menus {
       return inputEleccion;
   }
   //Menu de 7 opciones
-  public static String menu7opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4, String opcion5, String opcion6, String opcion7){
+  public String menu7opciones(String titulo, String opcion1, String opcion2, String opcion3, String opcion4, String opcion5, String opcion6, String opcion7){
       boolean salida = false;
       String inputEleccion = "";
       do{

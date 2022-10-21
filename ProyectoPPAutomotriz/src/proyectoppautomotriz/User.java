@@ -5,8 +5,8 @@ import javax.swing.JOptionPane;
 // tipo 1 usuario normal(empleado)
 // tipo 2 usuario administrador(dueño o administrador)
 //Despues lo haremos multiusuario.
-public class Login {
-    public static String login(){
+public class User {
+    public String login(){
         //creacion de variables
         String user = "user";
         String password = "1234";
