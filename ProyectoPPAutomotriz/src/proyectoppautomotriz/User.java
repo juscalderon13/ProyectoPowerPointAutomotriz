@@ -20,21 +20,21 @@ public class User {
         //contraseña hasta que sea correcto.
         do{
             //solicitud de usuario y contraseña al usuario
-            inputUsuario = JOptionPane.showInputDialog("Ingrese su nombre de usuario:"); 
-            inputContra = JOptionPane.showInputDialog("Ingrese su contraseña:");
+            inputUsuario = JOptionPane.showInputDialog(null,"Ingrese su nombre de usuario:","Inicio de Sesion",3); 
+            inputContra = JOptionPane.showInputDialog(null,"Ingrese su contraseña:","Inicio de Sesion",3);
             
             //verificacion de credenciales para ver si es usuario tipo 1(empleado)
             if (user.equals(inputUsuario) && password.equals(inputContra)) {
-                JOptionPane.showMessageDialog(null, "Inicio de sesion exitoso \n      Bienvenido " + user);
+                JOptionPane.showMessageDialog(null, "Inicio de sesion exitoso \n      Bienvenido " + user,"Inicio de Sesion",3);
                 typeUser = "1";
             //verificacion de credenciales para ver si es usuario tipo 2(admin) 
             }else if (admin.equals(inputUsuario) && admiPassword.equals(inputContra)) {
-                JOptionPane.showMessageDialog(null, "Inicio de sesion exitoso \n      Bienvenido " + admin);
+                JOptionPane.showMessageDialog(null, "Inicio de sesion exitoso \n      Bienvenido " + admin,"Inicio de Sesion",3);
                 typeUser = "2";
             //En caso de que ambas credenciales sean incorrectas notificarle al usuario    
             }else{
                 JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrectas"
-                        + "\n     Por favor intente otra vez");
+                        + "\n     Por favor intente otra vez","Inicio de Sesion",3);
             }
         //no cerraremos el bucle hasta que el usuario ingrese credenciales validas
         }while (typeUser == "0");    

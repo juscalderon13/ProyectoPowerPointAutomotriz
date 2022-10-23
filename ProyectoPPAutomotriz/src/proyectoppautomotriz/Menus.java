@@ -11,12 +11,9 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "-------------------------------------------------------"
-            + "\n" + titulo
-            + "\n-------------------------------------------------------"
-            + "\nSeleccione el modulo al que desea ir"
+             "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
-            + "\n[2] - " + opcion2);
+            + "\n[2] - " + opcion2, titulo, 3);
           switch(inputEleccion){
               case "1" -> salida = true;
               case "2" -> salida = true;
@@ -31,13 +28,10 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "-------------------------------------------------------"
-            + "\n" + titulo
-            + "\n-------------------------------------------------------"
-            + "\nSeleccione el modulo al que desea ir"
+             "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
-            + "\n[3] - " + opcion3);
+            + "\n[3] - " + opcion3, titulo, 3);
           switch(inputEleccion){
               case "1" -> salida = true;
               case "2" -> salida = true;
@@ -53,14 +47,11 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "-------------------------------------------------------"
-            + "\n" + titulo
-            + "\n-------------------------------------------------------"
-            + "\nSeleccione el modulo al que desea ir"
+             "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
             + "\n[3] - " + opcion3
-            + "\n[4] - " + opcion4);
+            + "\n[4] - " + opcion4, titulo, 3);
           switch(inputEleccion){
               case "1" -> salida = true;
               case "2" -> salida = true;
@@ -77,15 +68,12 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "-------------------------------------------------------"
-            + "\n" + titulo
-            + "\n-------------------------------------------------------"
-            + "\nSeleccione el modulo al que desea ir"
+             "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
             + "\n[3] - " + opcion3
             + "\n[4] - " + opcion4
-            + "\n[5] - " + opcion5);
+            + "\n[5] - " + opcion5, titulo, 3);
           switch(inputEleccion){
               case "1" -> salida = true;
               case "2" -> salida = true;
@@ -103,16 +91,13 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "-------------------------------------------------------"
-            + "\n" + titulo
-            + "\n-------------------------------------------------------"
-            + "\nSeleccione el modulo al que desea ir"
+             "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
             + "\n[3] - " + opcion3
             + "\n[4] - " + opcion4
             + "\n[5] - " + opcion5
-            + "\n[6] - " + opcion6);
+            + "\n[6] - " + opcion6, titulo, 3);
           switch(inputEleccion){
               case "1" -> salida = true;
               case "2" -> salida = true;
@@ -131,17 +116,14 @@ public class Menus {
       String inputEleccion = "";
       do{
           inputEleccion = JOptionPane.showInputDialog(null,
-              "-------------------------------------------------------"
-            + "\n" + titulo
-            + "\n-------------------------------------------------------"
-            + "\nSeleccione el modulo al que desea ir"
+             "\nSeleccione el modulo al que desea ir"
             + "\n[1] - " + opcion1
             + "\n[2] - " + opcion2
             + "\n[3] - " + opcion3
             + "\n[4] - " + opcion4
             + "\n[5] - " + opcion5
             + "\n[5] - " + opcion6
-            + "\n[5] - " + opcion7);
+            + "\n[5] - " + opcion7, titulo, 3);
           switch(inputEleccion){
               case "1" -> salida = true;
               case "2" -> salida = true;

@@ -5,9 +5,12 @@ import javax.swing.JOptionPane;
 //Clase Principal donde esta nuestro metodo main()
 public class ProyectoPPAutomotriz {
     public static void main(String[] args) {
+        
+        Productos producto = new Productos();
         Menus menu = new Menus();
         User usuario = new User();
         Empleados empleado = new Empleados();
+        Clientes cliente = new Clientes();
         
      String acceso = usuario.login();
      
@@ -33,9 +36,9 @@ public class ProyectoPPAutomotriz {
                             String selecModClientes = menu.menu4opciones("               GESTION DE CLIENTES", "Ver lista de clientes", "Actualizar cliente", "Agregar nuevo cliente", "Volver al menu principal");
                             //en este switch agregaremos las diferentes funciones de este modulo
                             switch(selecModClientes){
-                                case "1" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de ver lista de clientes");
+                                case "1" -> cliente.VerClientes();
                                 case "2" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de actualizar cliente");
-                                case "3" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de agregar nuevo cliente");
+                                case "3" -> cliente.CrearCliente();
                                 case "4" -> modClientes = false;
                                 
                                     }    
@@ -98,9 +101,9 @@ public class ProyectoPPAutomotriz {
                         do{
                             String selecModClientes = menu.menu4opciones("               GESTION DE CLIENTES", "Ver lista de clientes", "Actualizar cliente", "Agregar nuevo cliente", "Volver al menu principal");
                             switch(selecModClientes){
-                                case "1" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de ver lista de clientes");
+                                case "1" -> cliente.VerClientes();
                                 case "2" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de actualizar cliente");
-                                case "3" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de agregar nuevo cliente");
+                                case "3" -> cliente.CrearCliente();
                                 case "4" -> modClientes = false;
                                 
                                     }
@@ -127,9 +130,9 @@ public class ProyectoPPAutomotriz {
                             String selecModProductos = menu.menu7opciones("               GESTION DE PRODUCTOS", "Ver inventario", "Ver servicios", "Agregar Producto", "Agregar servicio", "Eliminar Producto", "Eliminar servicio", "Volver al menu principal");
                             switch(selecModProductos){
                                 case "1" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de ver lista de Productos");
-                                case "2" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de ver lista de Servicios");
+                                case "2" -> producto.VerServicios();
                                 case "3" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de agregar Producto");
-                                case "4" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de agregar Servicio");
+                                case "4" -> producto.AgregarServicio();
                                 case "5" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de eliminar Producto");
                                 case "6" -> JOptionPane.showMessageDialog(null,"Aqui ira el proceso de eliminar Servicio");
                                 case "7" -> modProductos = false;
